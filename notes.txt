@@ -1,0 +1,53 @@
+Here’s a detailed **comparison summary** between **Hydroxyapatite (HA)** and **Titanium (Ti)** in the context of **drug diffusion behavior**, suitable for documentation or reports.
+
+---
+
+## 📄 Drug Diffusion Simulation Report: HA vs Titanium
+
+---
+
+### ✅ **Material 1: Hydroxyapatite (HA)**
+- **Type:** Ceramic biomaterial  
+- **Common Use:** Bone grafts, orthopedic coatings  
+- **Diffusion Coefficient (D):** ~1 × 10⁻¹² cm²/s  
+- **Simulation Parameters:**
+  - **Length (L):** 1.0 cm  
+  - **Simulation Time (T):** 1000 s  
+  - **Time Step (dt):** 10 s  
+  - **Spatial Resolution (Nx):** 100  
+
+#### 🔬 Behavior:
+- Moderate diffusion rate — much slower than in polymers but still visible over time.
+- **Drug gradually moves from the source**, forming a smooth gradient across the HA matrix.
+- Suitable for **slow-release drug delivery**, especially in bone-targeting applications.
+- The **cumulative drug release curve** shows a **gradual increase** over time.
+
+---
+
+### 🛑 **Material 2: Titanium (Ti)**
+- **Type:** Metal  
+- **Common Use:** Orthopedic and dental implants  
+- **Diffusion Coefficient (D):** ~1 × 10⁻¹⁶ cm²/s  
+- **Simulation Parameters:**
+  - Same as for HA  
+
+#### 🔬 Behavior:
+- Extremely low diffusivity — drug essentially **does not penetrate** the matrix.
+- Drug remains localized near the release boundary (x = 0).
+- **Cumulative release curve is nearly flat**, showing no significant release over time.
+- Titanium is **not suitable** for drug diffusion purposes, but useful as a barrier or support structure.
+
+---
+
+### 📈 Comparative Summary
+
+| Property                     | Hydroxyapatite (HA) | Titanium (Ti)          |
+|-----------------------------|---------------------|------------------------|
+| Type                        | Ceramic             | Metal                  |
+| Diffusion Coefficient (cm²/s) | ~1 × 10⁻¹²          | ~1 × 10⁻¹⁶             |
+| Diffusion Behavior          | Slow but noticeable | Negligible             |
+| Drug Delivery Suitability   | Good (slow release) | Not suitable (barrier) |
+
+---
+
+Would you like this in **LaTeX format**, a printable PDF, or included in your Streamlit app interface as downloadable documentation?
