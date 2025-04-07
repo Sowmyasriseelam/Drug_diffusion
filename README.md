@@ -8,7 +8,6 @@ Designing controlled drug delivery systems
 Understanding how material or environmental factors affect release
 
 
-
-
-open cmd and the path directory
-type "streamlit run drug_diffusion_app.py"
+cd your_project
+source venv/bin/activate         # or venv\Scripts\activate on Windows
+streamlit run app.py
